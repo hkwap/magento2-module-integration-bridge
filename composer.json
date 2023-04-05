@@ -1,0 +1,29 @@
+{
+    "name": "hkwap/magento2-module-integration-bridge",
+    "description": "This module create base bridge to create integration with proper standards.",
+    "type": "magento2-module",
+    "homepage": "https://github.com/hkwap/magento2-module-integration-bridge/",
+    "license": [
+        "proprietary"
+    ],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Hubert Kwapisiewicz",
+            "email": "hubert.kwapisiewicz.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "HKwap\\IntegrationBridge\\": ""
+        }
+    },
+}
+
