@@ -24,6 +24,6 @@
         "psr-4": {
             "HKwap\\IntegrationBridge\\": ""
         }
-    },
+    }
 }
 
